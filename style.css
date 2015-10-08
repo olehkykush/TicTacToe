@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background: url("img/background.png");
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.header {
+    margin: 30px auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+.start-game-button{
+    margin: 50px auto;
+    font-size: 20px;
+    width: 450px;
+    height: 75px;
+}
+
+.tile {
+    margin: auto;
+    border: 1px solid black;
+    width: 450px;
+    font-size: 0;
+    user-select: none;
+}
+
+.cell{
+    margin: 0;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    background: skyblue;
+    outline: 1px solid gray;
+}
+
+.cross{
+    background: url("img/tic-tac-toe-hi.png") 150px 0;
+}
+
+.nought{
+    background: url("img/tic-tac-toe-hi.png");
+}
